@@ -1,0 +1,22 @@
+name: ChatCommand
+main: pgDev.bukkit.ChatCommand.ChatCommand
+version: 0.1
+author: PG Dev Team
+authors: [Devil Boy]
+description: Send a chat message using a command.
+
+commands:
+   chatcommand:
+      description: Send a chat message.
+      usage: /<command> <message>
+   chat:
+      description: Send a chat message.
+      usage: /<command> <message>
+   cc:
+      description: Send a chat message.
+      usage: /<command> <message>
+      
+permissions:
+    ChatCommand.use:
+        default: true
+        description: Can use the chat command.
